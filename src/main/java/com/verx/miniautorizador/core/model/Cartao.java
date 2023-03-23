@@ -1,12 +1,9 @@
 package com.verx.miniautorizador.core.model;
 
 import com.verx.miniautorizador.core.dto.CartaoDTO;
-import jakarta.persistence.Column;
-import jakarta.persistence.Entity;
-import jakarta.persistence.GeneratedValue;
-import jakarta.persistence.GenerationType;
+import jakarta.persistence.*;
 import lombok.*;
-import org.springframework.data.annotation.Id;
+
 
 
 @Data
